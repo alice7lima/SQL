@@ -1,4 +1,4 @@
--- New Companies
+-- Problem: New Companies
 
 select a1.company_code, a1.founder, 
 count(distinct a2.lead_manager_code),
